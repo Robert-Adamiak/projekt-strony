@@ -1,0 +1,39 @@
+/* grid-column-count */
+/* sass
+@for $i from 1 through 10 {
+  .grid-column-count-#{$i} {
+    --grid-column-count: #{$i};
+  }
+}
+*/
+
+.grid-column-count-1 {
+    --grid-column-count: 1;
+}
+.grid-column-count-2 {
+    --grid-column-count: 2;
+}
+.grid-column-count-3 {
+    --grid-column-count: 3;
+}
+.grid-column-count-4 {
+    --grid-column-count: 4;
+}
+.grid-column-count-5 {
+    --grid-column-count: 5;
+}
+.grid-column-count-6 {
+    --grid-column-count: 6;
+}
+.grid-column-count-7 {
+    --grid-column-count: 7;
+}
+.grid-column-count-8 {
+    --grid-column-count: 8;
+}
+.grid-column-count-9 {
+    --grid-column-count: 9;
+}
+.grid-column-count-10 {
+    --grid-column-count: 10;
+}

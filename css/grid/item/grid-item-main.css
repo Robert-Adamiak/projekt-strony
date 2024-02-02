@@ -1,0 +1,17 @@
+@import url('./span/grid-item-start-column-span.css');
+@import url('./span/grid-item-end-column-span.css');
+
+/* grid-item-main */
+.grid-container .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.grid-item .item-calc {
+    /* grid-column: var(--start-column-span) / var(--end-column-span); */
+    grid-column-start: var(--start-column-span);
+    grid-column-end: var(--end-column-span);
+    
+}

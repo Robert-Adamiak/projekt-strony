@@ -1,0 +1,7 @@
+@import url("./row/grid-row-main.css");
+@import url("./column/grid-column-main.css");
+@import url("./item/grid-item-main.css");
+
+.grid-container {
+    display: grid;
+}

@@ -1,0 +1,42 @@
+/* grid-container-start-column-span */
+
+/* sass
+@for $i from 1 through 10 {
+  .grid-container .start-column-span-#{$i} {
+    --start-column-span: #{$i};
+  }
+}
+
+*/
+
+
+.grid-container .start-column-span-1 {
+  --start-column-span: 1;
+}
+.grid-container .start-column-span-2 {
+  --start-column-span: 2;
+}
+.grid-container .start-column-span-3 {
+  --start-column-span: 3;
+}
+.grid-container .start-column-span-4 {
+  --start-column-span: 4;
+}
+.grid-container .start-column-span-5 {
+  --start-column-span: 5;
+}
+.grid-container .start-column-span-6 {
+  --start-column-span: 6;
+}
+.grid-container .start-column-span-7 {
+  --start-column-span: 7;
+}
+.grid-container .start-column-span-8 {
+  --start-column-span: 8;
+}
+.grid-container .start-column-span-9 {
+  --start-column-span: 9;
+}
+.grid-container .start-column-span-10 {
+  --start-column-span: 10;
+}

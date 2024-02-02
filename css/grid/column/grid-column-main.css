@@ -1,0 +1,5 @@
+@import url('./count/grid-column-count.css');
+/* grid column */
+.grid-container .grid-column-calc {
+    grid-template-columns: repeat(var(--grid-column-count), 1fr);
+}

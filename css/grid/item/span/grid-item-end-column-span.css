@@ -1,0 +1,42 @@
+/* grid-container-end-column-span.css */
+
+/* sass
+@for $i from 0 through 10 {
+  .grid-container .end-column-span-#{$i} {
+    --end-column-span: span #{$i};
+  }
+}
+*/
+.grid-container .end-column-span-0 {
+  --end-column-span: span 0;
+}
+.grid-container .end-column-span-1 {
+  --end-column-span: span 1;
+}
+.grid-container .end-column-span-2 {
+  --end-column-span: span 2;
+}
+.grid-container .end-column-span-3 {
+  --end-column-span: span 3;
+}
+.grid-container .end-column-span-4 {
+  --end-column-span: span 4;
+}
+.grid-container .end-column-span-5 {
+  --end-column-span: span 5;
+}
+.grid-container .end-column-span-6 {
+  --end-column-span: span 6;
+}
+.grid-container .end-column-span-7 {
+  --end-column-span: span 7;
+}
+.grid-container .end-column-span-8 {
+  --end-column-span: span 8;
+}
+.grid-container .end-column-span-9 {
+  --end-column-span: span 9;
+}
+.grid-container .end-column-span-10 {
+  --end-column-span: span 10;
+}

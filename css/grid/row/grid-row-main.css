@@ -1,0 +1,5 @@
+@import url('./count/grid-row-count.css');
+/* grid row */
+.grid-container .grid-row-calc {
+    grid-template-rows: repeat(var(--grid-row-count), auto);
+}
